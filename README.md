@@ -24,7 +24,7 @@ Buzzer (Alarm)
 LEDs (Air Conditioner, Fan and Alarm indicators)
 Camera Module
 
-# The projects is separed in 3 diferents past:
+# The projects is separated in 3 different directories:
 
 ## **ProjetoTI_Python**
 This folder contains the Raspberry Pi software responsible for controlling several hardware components and coordinating advanced system features. It manages the flame sensor, RFID reader, and the traffic light module used to represent the air conditioner, house ventilation, and alarm status.
