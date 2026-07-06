@@ -1,0 +1,88 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    background: rgba(15, 23, 42, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+/* Container login */
+.login-wrapper {
+    width: 1000px;
+    max-width: 95%;
+    background: white;
+}
+
+/* Imagem lateral */
+.login-image {
+    background: url("iot-bg.jpg") center center/cover no-repeat;
+    position: relative;
+    min-height: 600px;
+}
+
+.login-image::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0,0,0,0.55);
+}
+
+.overlay-text {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding: 60px;
+    align-self: flex-end;
+}
+
+.overlay-text h1 {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.overlay-text p {
+    font-size: 1.2rem;
+    opacity: 0.9;
+}
+
+/* Logo */
+.logo {
+    filter: drop-shadow(0px 0px 15px rgba(0,0,0,0.15));
+}
+
+/* Inputs */
+.input-group-text {
+    background: #0f172a;
+    color: white;
+    border: none;
+}
+
+.form-control {
+    border-left: none;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: #0ea5e9;
+}
+
+/* Botão */
+.btn-login {
+    background: linear-gradient(135deg, rgba(15, 23, 42, 0.95), rgba(15, 23, 42, 0.95));
+    border: none;
+    color: white;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.btn-login:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(37,99,235,0.35);
+}
+
+/* Card */
+.bg-white {
+    border-radius: 0;
+}
