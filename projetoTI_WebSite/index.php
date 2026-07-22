@@ -1,16 +1,3 @@
-<!doctype html>
-<html lang="pt">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>HomeGuard - Login</title>
-
-    <link rel="stylesheet" href="style_login.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-</head>
-
-<body>
 
 <?php
 session_start();
@@ -41,6 +28,21 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
     }
 }
 ?>
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HomeGuard - Login</title>
+
+    <link rel="stylesheet" href="style_login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+
 <!-- -----------------NAVBAR-------------------------------- -->
 <nav class="navbar navbar-dark shadow-sm">
     <div class="container-fluid">
