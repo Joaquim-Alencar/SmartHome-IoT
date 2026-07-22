@@ -1,16 +1,3 @@
-<!doctype html>
-<html lang="pt">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Plataforma IoT</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <link href="style.css" rel="stylesheet">
-    <meta http-equiv="refresh" content="5">
-</head>
-
-<body>
 <?php
   session_start();
 
@@ -148,6 +135,21 @@ if ($estado_ventoinha == 1) {
         $classe_alarme = "badge rounded-pill text-bg-secondary";
     }
 ?>
+
+
+<!doctype html>
+<html lang="pt">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Plataforma IoT</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <meta http-equiv="refresh" content="5">
+</head>
+
+<body>
 
 
 <?php
